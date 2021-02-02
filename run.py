@@ -58,7 +58,7 @@ def main():
 	select = int(select)
 
 	chapter = module.getEpisode(mangaList[select - 1][1])
-	print("   [?] total chapter: {}".format(len(chapter)))
+	print("   [+] total chapter: {}".format(len(chapter)))
 
 
 	while True:
